@@ -1,5 +1,12 @@
 [gd_scene format=3 uid="uid://b0ct2h6aw4or0"]
 
-[node name="Node2D" type="Node2D" unique_id=1901351487]
+[ext_resource type="Texture2D" uid="uid://sf1xxakh0jdg" path="res://jermakirk.jpg" id="1_wtcfe"]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=150344132]
+[node name="Node2D" type="Node2D" unique_id=1200785357]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1925073521]
+position = Vector2(342, 199)
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D" unique_id=1032705695]
+position = Vector2(208, 130)
+texture = ExtResource("1_wtcfe")
