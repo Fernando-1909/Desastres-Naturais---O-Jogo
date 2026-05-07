@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://5lfugjx2eqnp"]
+
+[ext_resource type="Script" uid="uid://dm516ncg55ogk" path="res://Jogo principal/main_game.gd" id="1_bvlld"]
+[ext_resource type="Texture2D" uid="uid://dtuqnshrhsbod" path="res://Screenshot_1.jpg" id="2_gdpdu"]
+
+[node name="MainGame" type="Node2D" unique_id=873718037]
+script = ExtResource("1_bvlld")
+
+[node name="Screenshot1" type="Sprite2D" parent="." unique_id=754103434]
+position = Vector2(655, 297)
+texture = ExtResource("2_gdpdu")

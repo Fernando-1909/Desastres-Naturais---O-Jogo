@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://dmvjnql5i80qd"]
 
-[ext_resource type="Texture2D" uid="uid://buv3m4eso2xyi" path="res://placeholder.jpg" id="1_7vrkn"]
-[ext_resource type="Script" uid="uid://d3bkii5byml4q" path="res://main_menu.gd" id="1_fu7sn"]
-[ext_resource type="FontFile" uid="uid://3wnomst056rh" path="res://ARCADECLASSIC.TTF" id="2_fu7sn"]
+[ext_resource type="Script" uid="uid://d3bkii5byml4q" path="res://Menu Principal/main_menu.gd" id="1_3sya1"]
+[ext_resource type="Texture2D" uid="uid://buv3m4eso2xyi" path="res://Menu Principal/placeholder.jpg" id="2_1soyw"]
+[ext_resource type="FontFile" uid="uid://3wnomst056rh" path="res://Menu Principal/ARCADECLASSIC.TTF" id="3_aujqx"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jix8l"]
-texture = ExtResource("1_7vrkn")
+texture = ExtResource("2_1soyw")
 modulate_color = Color(0.641934, 0.641934, 0.641934, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_glbon"]
@@ -44,7 +44,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_fu7sn")
+script = ExtResource("1_3sya1")
 
 [node name="Panel" type="Panel" parent="." unique_id=2041211936]
 layout_mode = 1
@@ -131,7 +131,7 @@ theme_override_constants/line_spacing = 4
 theme_override_constants/shadow_offset_x = 10
 theme_override_constants/outline_size = 1
 theme_override_constants/shadow_outline_size = 6
-theme_override_fonts/font = ExtResource("2_fu7sn")
+theme_override_fonts/font = ExtResource("3_aujqx")
 theme_override_font_sizes/font_size = 63
 text = "Desastres naturais"
 horizontal_alignment = 1
