@@ -21,3 +21,4 @@ func _on_creditos_pressed() -> void:
 
 func _on_exit_pressed() -> void:
 	print("Sair apertado")
+	get_tree().quit()
